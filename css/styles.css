@@ -24,18 +24,27 @@ ul {
 }
 .logo {
   font-weight: bold;
+  width: 153px;
+  height: 31px;
+  font-size: 26px;
+  line-height: 31px;
+  color: #212121;
 }
 .logo-text {
   color: #2196f3;
 }
+.site-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+
 .site-nav a:hover,
 .site-nav a:focus {
   color: #2196f3;
 }
-.site-nav a {
-  color: #212121;
-  font-weight: 500;
-}
+
 .mail-tel a {
   color: #757575;
 }
@@ -46,7 +55,11 @@ ul {
 }
 
 /* Герой */
-
+.hero-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: aqua;
+}
 /* Особенности */
 
 .features-title {
@@ -71,4 +84,5 @@ ul {
   background: rgba(47, 48, 58, 0.8);
   text-align: center;
   font-weight: bold;
+  text-transform: uppercase;
 }
