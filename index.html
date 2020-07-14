@@ -8,11 +8,10 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="page-header">
-      <a href="index.html" class="company-logo">Web Studio</a>
-
-      <!--<img src="./img/WebStudio.svg" alt="лого компании" />-->
-
+    <header class="header">
+      <a href="index.html" class="logo"
+        ><span class="logo-text">Web </span>Studio</a
+      >
       <nav>
         <ul class="site-nav">
           <li>
@@ -39,53 +38,75 @@
     <!--герой-->
 
     <section class="hero">
+      <img
+        class="hero-pic"
+        src="./img/header-img/header.jpg"
+        alt="фоновая картинка"
+      />
+      <img class="hero-overlay" src="./img/header-img/overlay.jpg" alt="" />
       <h1>Эффективные решения для вашего бизнеса</h1>
-      <button>Заказать услугу</button>
+      <button class="button">Заказать услугу</button>
     </section>
 
     <main>
       <!-- Особенности -->
-      <section>
+      <section class="features">
         <ul>
           <li>
-            <img src="./img/svg/features/antenna.svg" alt="антена" />
-            <h2>
+            <img
+              class="features-pic"
+              src="./img/svg/features/antenna.svg"
+              alt="антена"
+            />
+            <h2 class="features-title">
               Внимание к деталям
             </h2>
-            <p>
+            <p class="features-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
 
           <li>
-            <img src="./img/svg/features/clock.svg" alt="часы" />
-            <h2>
+            <img
+              class="features-pic"
+              src="./img/svg/features/clock.svg"
+              alt="часы"
+            />
+            <h2 class="features-title">
               Пунктуальность
             </h2>
-            <p>
+            <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
 
           <li>
-            <img src="./img/svg/features/diagram.svg" alt="диаграмма" />
-            <h2>
+            <img
+              class="features-pic"
+              src="./img/svg/features/diagram.svg"
+              alt="диаграмма"
+            />
+            <h2 class="features-title">
               Планирование
             </h2>
-            <p>
+            <p class="features-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
 
           <li>
-            <img src="./img/svg/features/astronaut.svg" alt="астронавт" />
-            <h2>
+            <img
+              class="features-pic"
+              src="./img/svg/features/astronaut.svg"
+              alt="астронавт"
+            />
+            <h2 class="features-title">
               Современные технологии
             </h2>
-            <p>
+            <p class="features-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -93,8 +114,8 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="work">
+        <h2 class="work-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -102,7 +123,7 @@
               alt="на фото ноутбук"
               width="370"
             />
-            <p>Десктопные приложения</p>
+            <p class="work-text">Десктопные приложения</p>
           </li>
           <li>
             <img
@@ -110,7 +131,7 @@
               alt="картинка мобильного телефона"
               width="370"
             />
-            <p>Мобильные приложения</p>
+            <p class="work-text">Мобильные приложения</p>
           </li>
           <li>
             <img
@@ -118,13 +139,13 @@
               alt="картинка компьютера от компании Эпл"
               width="370"
             />
-            <p>Дизайнерские решения</p>
+            <p class="work-text">Дизайнерские решения</p>
           </li>
         </ul>
       </section>
       <!-- Наша команда -->
       <h2>Наша команда</h2>
-      <ul class="social-networks">
+      <ul>
         <!-- фото команды -->
 
         <li>
