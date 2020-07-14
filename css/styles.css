@@ -60,23 +60,63 @@ ul {
   text-transform: uppercase;
   background-color: aqua;
 }
+
+/* Кнопка Заказать услугу*/
+
+.button {
+  color: #ffffff;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+}
+.button:hover,
+.button:focus {
+  background: #188ce8;
+}
+
+/* Заголовки */
+
+.head-title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 /* Особенности */
+
+.features-pic {
+  margin-top: 119px;
+  display: flex;
+  justify-content: space-around;
+}
 
 .features-title {
   color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .features-text {
   color: #757575;
   width: 270px;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 /* Чем мы занимаемся */
 
-.work-title {
-  color: #212121;
-  font-weight: bold;
-  font-size: 36px;
+.work-pic {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 215px;
 }
+
 .work-text {
   color: #ffffff;
   width: 370px;
@@ -84,4 +124,43 @@ ul {
   background: rgba(47, 48, 58, 0.8);
   text-align: center;
   text-transform: uppercase;
+  padding-top: 37px;
+  justify-content: space-around;
+}
+
+/* Наша команда */
+
+.names {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.position {
+  font-weight: normal;
+  font-size: 16px;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Фото команды */
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  height: 422px;
+  padding: 0px 215px;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Постоянные клиенты */
+
+.clients-links {
+  display: flex;
+  justify-content: space-around;
 }
