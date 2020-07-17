@@ -24,7 +24,14 @@ body {
 }
 
 /* Шапка сайта */
-
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
 .logo-web {
   color: var(--accent-color);
 }
@@ -67,9 +74,18 @@ body {
 /* СТИЛИ ФУТЕРА */
 
 /* Адрес и лого */
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
 .footer-container {
   background-color: var(--footer-background-color);
 }
+
 .address-info {
   font-style: normal;
   font-weight: normal;
