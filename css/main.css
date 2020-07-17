@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --hover-color: #188ce8;
+  --hero-text-color: #ffffff;
+  --main-background-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --primary-button-color: #2196f3;
+}
+
+/* Шапка сайта */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  width: 153px;
+  height: 31px;
+  font-size: 26px;
+  line-height: 31px;
+  color: #212121;
+}
+.logo-web {
+  color: #2196f3;
+}
+.site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.site-nav a:active {
+  color: var(--accent-color);
+}
+
+.mail-tel a {
+  color: #757575;
+}
+.mail-tel a:hover,
+.mail-tel a:focus {
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* СТИЛИ ФУТЕРА */
+
+/* Адрес и лого */
+.footer-container {
+  background-color: var(--footer-background-color);
+}
+.address-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.web-title {
+  color: var(--accent-color);
+}
+.studio-title {
+  color: var(--third-text-color);
+}
+.address-items {
+  color: var(--third-text-color);
+}
+.footer-mail-tel {
+  color: var(--footer-contacts-color);
+}
+.bold-text {
+  color: var(--third-text-color);
+  text-transform: uppercase;
+}

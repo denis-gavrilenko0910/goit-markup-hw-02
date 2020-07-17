@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header class="header">
       <a href="index.html" class="logo"
-        ><span class="logo-text">Web </span>Studio</a
+        ><span class="logo-web">Web </span>Studio</a
       >
       <nav>
         <ul class="site-nav">
@@ -34,9 +43,9 @@
         </ul>
       </nav>
     </header>
-    <!--Подвал-->
+    <!-- Основной контент -->
     <main>
-      <ul>
+      <ul class="filters">
         <li>
           <a href="">
             Все
@@ -71,9 +80,9 @@
               alt="ноутбук"
               width="370"
             />
-            <h1>
+            <h2>
               Технокряк
-            </h1>
+            </h2>
             <a href="">
               <p>Веб-сайт</p>
             </a>
@@ -84,9 +93,9 @@
               alt="два баскетболиста в игре"
               width="370"
             />
-            <h1>
+            <h2>
               Постер New Orlean vs Golden Star
-            </h1>
+            </h2>
             <a href="">
               <p>Дизайн</p>
             </a>
@@ -97,7 +106,7 @@
               alt="логотип ресторна морепродуктов"
               width="370"
             />
-            <h1>Ресторан Seafood</h1>
+            <h2>Ресторан Seafood</h2>
             <a href="">
               <p>Приложение</p>
             </a>
@@ -112,9 +121,9 @@
               alt="наушники"
               width="370"
             />
-            <h1>
+            <h2>
               Проект Prime
-            </h1>
+            </h2>
             <a href="">
               Маркетинг
             </a>
@@ -125,7 +134,7 @@
               alt="картинка двух коробочек"
               width="370"
             />
-            <h1>Проект Boxes</h1>
+            <h2>Проект Boxes</h2>
             <a href="">
               <p>Приложение</p>
             </a>
@@ -136,9 +145,9 @@
               alt="компьютер"
               width="370"
             />
-            <h1>
+            <h2>
               <span lang="en">Inspiration has no Borders</span>
-            </h1>
+            </h2>
             <a href="">
               <p>Веб-сайт</p>
             </a>
@@ -153,7 +162,7 @@
               alt="изображение журнала"
               width="370"
             />
-            <h1>Издание <span lang="en">Limited Edition</span></h1>
+            <h2>Издание <span lang="en">Limited Edition</span></h2>
             <a href="">
               <p>Дизайн</p>
             </a>
@@ -164,7 +173,7 @@
               alt="бирка"
               width="370"
             />
-            <h1>Проект <span lang="en">LAB</span></h1>
+            <h2>Проект <span lang="en">LAB</span></h2>
             <a href="">
               <p>Маркетинг</p>
             </a>
@@ -175,9 +184,9 @@
               alt="ноутбук"
               width="370"
             />
-            <h1>
+            <h2>
               <span lang="en">Growing Business</span>
-            </h1>
+            </h2>
             <a href="">
               <p>Приложение</p>
             </a>
@@ -185,49 +194,61 @@
         </ul>
       </section>
     </main>
+    <div class="footer-container">
       <footer>
         <address>
-          <p>
-            Web Studio
-          </p>
-        </a>
-        г. Киев, <br />
-        пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@example.com"> info@example.com</a> <br />
-        <a href="tel:+380991111111"> +38 099 111 11 11</a>
-      </address>
-      <!--Блок с соц сетями-->
-      <div>
-        <b>присоединяйтесь</b>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/">
-              <img src="./img/svg/social_links/instagram.svg" alt="инстаграм" />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/">
-              <img src="./img/svg/social_links/twitter.svg" alt="твитер" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/">
-              <img src="./img/svg/social_links/facebook.svg" alt="фейсбук" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/">
-              <img src="./img/svg/social_links/linkedin.svg" alt="линкед ин" />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--Блок рассылка-->
-      <div>
-        <b>Подпишитесь на рассылку</b>
-        <input type="email" placeholder="e-mail" />
-        <input type="button" value="Подписаться" />
-      </div>
-    </footer>
+          <a href="./index.html" class="logo">
+            <p>
+              <span class="web-title">Web </span>
+              <span class="studio-title">Studio</span>
+            </p>
+          </a>
+          <div class="address-items">
+            г. Киев, <br />
+            пр-т Леси Украинки, 26 <br />
+          </div>
+          <a href="mailto:info@example.com"> info@example.com</a> <br />
+          <a href="tel:+380991111111"> +38 099 111 11 11</a>
+        </address>
+        <!--Блок с соц сетями-->
+        <div>
+          <b>присоединяйтесь</b>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  src="./img/svg/social_links/instagram.svg"
+                  alt="инстаграм"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img src="./img/svg/social_links/twitter.svg" alt="твитер" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img src="./img/svg/social_links/facebook.svg" alt="фейсбук" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/">
+                <img
+                  src="./img/svg/social_links/linkedin.svg"
+                  alt="линкед ин"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Блок рассылка-->
+        <div>
+          <b>Подпишитесь на рассылку</b>
+          <input type="email" placeholder="E-mail" />
+          <input type="button" value="Подписаться" />
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
