@@ -48,7 +48,7 @@ body {
 .site-nav a:focus {
   color: #2196f3;
 }
-.site-nav a:active {
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -70,6 +70,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
+}
+
+.button:hover,
+.button:focus {
+  background: #188ce8;
 }
 
 /* СТИЛИ ФУТЕРА */
@@ -97,12 +102,11 @@ body {
 .web-title {
   color: var(--accent-color);
 }
-.studio-title {
-  color: var(--third-text-color);
-}
+.studio-title,
 .address-items {
   color: var(--third-text-color);
 }
+
 .footer-mail-tel {
   color: var(--footer-contacts-color);
 }

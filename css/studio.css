@@ -1,7 +1,7 @@
 /* Герой */
 
 .hero-text {
-  color: #ffffff;
+  color: var(--hero-text-color);
   text-transform: uppercase;
   background-color: aqua;
 }
