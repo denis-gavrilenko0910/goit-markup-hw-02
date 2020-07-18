@@ -3,7 +3,7 @@
 .hero-text {
   color: var(--hero-text-color);
   text-transform: uppercase;
-  background-color: aqua;
+  background-image: url(../img/header-img/header.png);
 }
 
 /* Заголовки */
