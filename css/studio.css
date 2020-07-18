@@ -6,13 +6,6 @@
   background-color: aqua;
 }
 
-/* Кнопки*/
-
-.button:hover,
-.button:focus {
-  background: #188ce8;
-}
-
 /* Заголовки */
 
 .heading {
