@@ -11,8 +11,7 @@
 .heading {
   font-weight: bold;
   font-size: 36px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+
   text-align: center;
 }
 
@@ -40,11 +39,15 @@
 }
 
 /* Чем мы занимаемся */
+.work {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 
 .work-pic {
   display: flex;
   justify-content: space-around;
-  padding: 0 215px;
+  margin: 0 215px;
 }
 
 .work-text {
