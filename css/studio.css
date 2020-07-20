@@ -88,12 +88,10 @@
 
 .socials {
   display: flex;
-  justify-content: space-around;
 }
 
 /* Постоянные клиенты */
 
 .clients-links {
   display: flex;
-  justify-content: space-around;
 }
