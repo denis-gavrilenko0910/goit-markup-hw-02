@@ -24,7 +24,7 @@
 }
 
 .features-title {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -32,7 +32,7 @@
   margin-bottom: 10px;
 }
 .features-text {
-  color: #757575;
+  color: var(--secondary-text-color);
   width: 270px;
   font-weight: normal;
   font-size: 14px;
@@ -51,7 +51,7 @@
 }
 
 .work-text {
-  color: #ffffff;
+  color: var(--third-text-color);
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
@@ -72,7 +72,7 @@
 .position {
   font-weight: normal;
   font-size: 16px;
-  color: #757575;
+  color: var(--third-text-color);
   text-align: center;
   margin-bottom: 16px;
 }
@@ -81,8 +81,7 @@
 
 .team {
   display: flex;
-  justify-content: space-around;
-  height: 422px;
+
   padding: 0px 215px;
 }
 

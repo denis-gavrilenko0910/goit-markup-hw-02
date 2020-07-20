@@ -5,8 +5,8 @@
   list-style: none;
 }
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--main-background-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,6 +15,7 @@ body {
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
   --accent-color: #2196f3;
+  --mail-tel-hover-color: #2196f3;
   --hover-color: #188ce8;
   --hero-text-color: #ffffff;
   --main-background-color: #ffffff;
@@ -24,13 +25,18 @@ body {
 }
 
 /* Шапка сайта */
+.header-container {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #212121;
+  color: var(--primary-text-color);
   letter-spacing: 0.03em;
 }
 .logo-web {
@@ -40,33 +46,34 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #212121;
+  color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--primary-button-color);
 }
 .site-nav .current {
   color: var(--accent-color);
 }
 
 .mail-tel a {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .mail-tel a:hover,
 .mail-tel a:focus {
-  color: #2196f3;
+  color: var(--mail-tel-hover-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Акцентные кнопки */
 
 .button {
-  color: #ffffff;
+  color: var(--third-text-color);
+
   border-radius: 4px;
-  background: #2196f3;
+  background: var(--primary-button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
@@ -74,7 +81,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background: #188ce8;
+  background: var(--hover-color);
 }
 
 /* СТИЛИ ФУТЕРА */
@@ -85,7 +92,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #212121;
+  color: var(--primary-text-color);
   letter-spacing: 0.03em;
 }
 .footer-container {
