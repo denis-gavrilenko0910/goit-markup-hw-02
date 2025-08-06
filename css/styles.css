@@ -1,0 +1,296 @@
+:root {
+  --primary: #4d5ae5;
+  --dark: #2e2f42;
+  --light: #f4f4fd;
+  --accent: #e7e9fc;
+  --pressed: #404bbf;
+  --text: #434455;
+  --white: #ffffff;
+  --global-padding: 156px;
+  --font-size-default: 16px;
+  --font-weight-medium: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: var(--font-size-default);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  background-color: var(--accent);
+  justify-content: space-between;
+  padding: 24px var(--global-padding);
+}
+
+header ul {
+  display: flex;
+}
+
+header a {
+  color: var(--dark);
+}
+
+footer {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 100px var(--global-padding);
+}
+
+section {
+  padding: 120px var(--global-padding);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+address ul li {
+  margin-left: 40px;
+}
+
+
+/* ===== HEADER ===== */
+
+header {
+  display: flex;
+  background-color: var(--accent);
+  justify-content: space-between;
+  padding: 24px var(--global-padding);
+}
+
+header ul {
+  display: flex;
+}
+
+header a {
+  color: var(--dark);
+}
+
+.main_navigation {
+  display: flex;
+}
+
+.main_navigation ul {
+  margin-left: 76px;
+}
+
+.main_navigation ul li {
+  margin-right: 40px;
+}
+
+.main_navigation ul a {
+  font-weight: var(--font-weight-medium);
+}
+
+.main_navigation ul a:active,
+.main_navigation ul a:focus {
+  border-bottom: 4px solid var(--pressed);
+}
+
+.nav_link {
+  color: var(--dark);
+}
+
+.contact_link {
+  color: var(--text);
+}
+
+.nav_link:active,
+.nav_link:focus,
+.contact_link:active,
+.contact_link:focus {
+  color: var(--pressed);
+}
+
+address ul a:hover,
+.main_navigation ul a:hover {
+  color: var(--pressed);
+}
+
+.logo {
+  color: var(--primary);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo .dark {
+  color: var(--dark);
+}
+
+.logo .light {
+  color: var(--light);
+}
+
+
+/* ===== HERO ===== */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark);
+  text-align: center;
+  min-height: 600px;
+}
+
+.hero_heading {
+  color: var(--white);
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  margin-bottom: 48px;
+  max-width: 500px;
+}
+
+.primary_button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  font-weight: var(--font-weight-medium);
+  padding: var(--font-size-default) 32px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.primary_button:hover,
+.primary_button:focus,
+.primary_button:active {
+  background-color: var(--pressed);
+  cursor: pointer;
+}
+
+
+/* ===== SECTION HEADERS ===== */
+
+.section_header {
+  color: var(--dark);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.block_header {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+
+/* ===== PRINCIPLES ===== */
+
+.principles {
+  display: flex;
+}
+
+.principles ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.principles li {
+  max-width: 264px;
+}
+
+
+/* ===== TEAM ===== */
+
+.team {
+  background-color: var(--light);
+}
+
+.team ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.team li {
+  background-color: var(--white);
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.team img {
+  margin-bottom: 32px;
+}
+
+
+/* ===== PORTFOLIO ===== */
+
+.portfolio ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.portfolio div {
+  border: 1px solid var(--accent);
+  border-top: none;
+  padding: 32px var(--font-size-default);
+}
+
+.portfolio li:first-child div {
+  margin-bottom: 48px;
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer p {
+  margin-top: var(--font-size-default);
+  max-width: 264px;
+}
